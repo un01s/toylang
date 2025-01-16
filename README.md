@@ -63,5 +63,10 @@ $ python3 interp.py code2.txt
 {'n': 0, 'r': 120}
 ```
 
-The code is to calculate the factorial of a number like ```5!```.
+The code is to calculate the factorial of a number, like ```5!``` in the example. 
 
+To handle while loop, the arithmetic operations like ```*```, and ```-``` are added. Also the comparison like ```>=``` is added too. To deal with the loop, for ```while```, we have to look forward for its ```end```. And for ```end```, look backward for its ```while```. So the program counter ```pc``` in the code.
+ 
+## notes
+
+The code written by Dr Laurence Tratt is pythonic. The steps are incremental and easy to follow. 
