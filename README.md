@@ -49,3 +49,19 @@ $ python3 interp.py code.txt
 {'x': 3, 'y': 6}
 ```
 
+## setp5: add while loop
+
+```
+$ cat code2.txt 
+n = 5
+r = 1
+while n 1 >=
+  r = r n *
+  n = n 1 - 
+end
+$ python3 interp.py code2.txt
+{'n': 0, 'r': 120}
+```
+
+The code is to calculate the factorial of a number like ```5!```.
+
