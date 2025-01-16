@@ -39,3 +39,13 @@ $ python3 interp.py code.txt
 7
 ```
 
+## step4: handle variables
+
+```
+$ cat code.txt 
+x = 1 2 +
+y = x 3 +
+$ python3 interp.py code.txt
+{'x': 3, 'y': 6}
+```
+
