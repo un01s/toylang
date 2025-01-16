@@ -26,3 +26,16 @@ $ python3 interp.py code.txt
 3
 ```
 
+## step3: parse multiple lines
+
+Restructure the code with ```class```, and add the function to handle multiple lines of code.
+
+```
+$ cat code.txt
+1 2 +
+3 4 +
+$ python3 interp.py code.txt
+3
+7
+```
+
